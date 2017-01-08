@@ -25,3 +25,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+## Quick description of the code
+1. load teh different files
+2. merge the differents "train" files in 1 data set, then same with "test" files
+3. merge these 2 data set in 1
+4. reduce the data set to only the mean and std values
+5. clean the columns names
+6. calculate the mean
+7. save the final result in a TXT file
